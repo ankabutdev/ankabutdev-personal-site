@@ -12,6 +12,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+/*
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-3.1&tabs=visual-studio
+ */
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
