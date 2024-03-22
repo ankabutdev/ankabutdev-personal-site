@@ -43,4 +43,9 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult Profile()
+    {
+        return View();
+    }
 }
