@@ -29,11 +29,6 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public IActionResult Contact()
-    {
-        return View();
-    }
-
     public IActionResult AboutUs()
     {
         return View();
@@ -50,6 +45,11 @@ public class HomeController : Controller
     }
 
     public IActionResult Settings()
+    {
+        return View();
+    }
+
+    public IActionResult Contacts()
     {
         return View();
     }
